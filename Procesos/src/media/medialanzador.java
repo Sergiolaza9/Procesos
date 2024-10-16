@@ -30,7 +30,7 @@ public class medialanzador {
 			pw= new PrintWriter(osr);
 			
 			Scanner sc=new Scanner(System.in);
-			int total=0, numero, cont=0;
+			int numero;
 			System.out.println("Padre: Dime un numero");
 			numero=sc.nextInt();
 			while(numero!=0) {
